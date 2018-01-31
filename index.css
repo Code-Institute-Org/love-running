@@ -167,7 +167,7 @@ button {
     padding: 5px 10px;
     border-radius: 4px;
     font-weight: bold;
-    font-size: 9pt;
+    font-size: 11pt;
     outline: none;
 }
 
@@ -180,6 +180,7 @@ button:hover {
 }
 
 #checklist-actions{
+    margin-top: 20px;
     text-align: center;
 }
 
