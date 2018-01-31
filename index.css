@@ -179,6 +179,10 @@ button:hover {
     background: #F7F7F7;
 }
 
+#checklist-actions{
+    text-align: center;
+}
+
 /* media queries*/
 
 @media screen  and (max-width: 768px) {
