@@ -1,160 +1,156 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 
 /* reset style */
+
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Alegreya Sans', sans-serif;
 
 }
+
 /* end reset style */
 
 body {
-	color: #6991AC;
+    color: #6991AC;
 }
 
-h2{
-	font-size: 200%;
-	font-weight: 700;
-	text-align: center;
-	padding-top: 2%;
+h2 {
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2%;
 
 }
 
 p {
 
-	color: #666666;
-	font-size: 120%;
-	line-height: 120%;
-	text-align: justify;
-	padding-left: 53px;
+    color: #666666;
+    font-size: 120%;
+    line-height: 120%;
+    text-align: justify;
+    padding-left: 53px;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	width: auto;
-	margin-bottom: -4px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
 }
 
 header {
-	width: 100%;
-	height: 86px;
+    padding-left: 53px;
 }
 
-#header-inner {
-	max-width: 1200px;
-	margin: 0 auto;
-}
 
 #logo {
-	float: left;
-	width: 70px;
-	height: 60px;
-	padding-top: 20px;
-	background: url(https://i.imgur.com/laiywsa.png) no-repeat center;
+    float: left;
+    width: 70px;
+    height: 60px;
+    padding-top: 20px;
+    background: url(https://i.imgur.com/laiywsa.png) no-repeat center;
 }
 
 /*------- Start Navigation--------*/
 
-
-
-ul, ol {
-	list-style-type: none;
-	display: inline-block;
-	font-size: 120%;
+ul,
+ol {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 120%;
 }
 
 
 ol {
-	margin-top: 20px;
-	padding-left: 53px;
+    margin-top: 20px;
+    padding-left: 53px;
 }
 
 
 /*---- End Navigation--------*/
 
-
 #inner-wrapper1 {
-	min-height: 230px;
-	width: 100%;
+    min-height: 230px;
+    width: 100%;
 }
 
 #inner-wrapper2 {
-  min-height: 230px;
-	float: left;
-	width: 100%;
-	background: url(https://i.imgur.com/JOw5DVD.jpg);
+    min-height: 230px;
+    float: left;
+    width: 100%;
+    background: url(https://i.imgur.com/JOw5DVD.jpg);
 }
 
-#heart, #checklist i{
-	color: #F16D6B;
+#heart,
+#checklist i {
+    color: #F16D6B;
 }
 
 #heart {
-	font-size: 850%;
-	text-align: center;
-	float:right;
-	margin: 0 auto;
-	width: 50%;
-	padding-top: 20px;
+    font-size: 850%;
+    text-align: center;
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
 }
 
 
 #overview {
-	float: left;
-	width: 50%;
-	
+    float: left;
+    width: 50%;
+
 }
 
 #community {
-	font-size: 700%;
-	text-align: center;
-	/*min-height: 200px;*/
-	float: right;
-	margin: 0 auto;
-	width: 50%;
-	padding-top: 20px;
+    font-size: 700%;
+    text-align: center;
+    /*min-height: 200px;*/
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
 }
 
 #community i {
-	padding-top: 30px;
-	color: #ffffff;
+    padding-top: 30px;
+    color: #ffffff;
 }
 
 #times {
-	float: right;
-	width: 50%;
-	color: #ffffff;
+    float: right;
+    width: 50%;
+    color: #ffffff;
 }
 
 #times ul p {
- font-size: 100%;
- color: #ffffff;
- padding: 3px;
+    font-size: 100%;
+    color: #ffffff;
+    padding: 3px;
 }
 
 footer {
-	width: 100%;
+    width: 100%;
 }
 
-.social_networks{
-	list-style-type: none;
-	text-align: center;
-	width: 100%;
+.social_networks {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
 
 }
 
 .social_networks li {
-	display: inline;
+    display: inline;
 }
 
- .social_networks i {
-	font-size: 160%;
-	margin: 1%;
-	padding: 5%;
-	color: #6991AC;
+.social_networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #6991AC;
 }
 
 
@@ -179,98 +175,101 @@ button:hover {
     background: #F7F7F7;
 }
 
-#checklist-actions{
+#checklist-actions {
     margin-top: 20px;
     text-align: center;
 }
 
 /* media queries*/
 
-@media screen  and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-	h2 {
-		font-size: 150%;
-	}
+    h2 {
+        font-size: 150%;
+    }
 
-	h3 {
-		font-size: 125%;
-	}
+    h3 {
+        font-size: 125%;
+    }
 
-	p {
-		font-size: 100%;
-	}
+    p {
+        font-size: 100%;
+    }
 
-	#menu-icon {
-		display: inline-block;
-	}
+    #menu-icon {
+        display: inline-block;
+    }
 
-	nav ul,nav:active ul {
-		display: none;
-		z-index: 1000;
-		position: absolute;
-		padding: 20px;
-		background-color: #ffffff;
-		left: 0px;
-		top: 70px;
-		width: 100%;
-	}
+    nav ul,
+    nav:active ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background-color: #ffffff;
+        left: 0px;
+        top: 70px;
+        width: 100%;
+    }
 
-	nav ul li {
-		padding-right: 7.5%;
-	}
+    nav ul li {
+        padding-right: 7.5%;
+    }
 
-	nav:hover ul {
-		display: block;
-		padding-right: 30px;
-	}
+    nav:hover ul {
+        display: block;
+        padding-right: 30px;
+    }
 
-	#menu-icon {
-		color: #F06D6D;
-	}
+    #menu-icon {
+        color: #F06D6D;
+    }
 
-	#overview, #times, #heart, #community {
-		width: 100%;
-	}
-	
-	section {
-		min-height: 200px;
-	}
+    #overview,
+    #times,
+    #heart,
+    #community {
+        width: 100%;
+    }
 
-	p {
-		font-family: 'Alegreya Sans', sans-serif;
-		color: #888888;
-		font-size: 115%;
-		line-height: 100%;
-		text-align: justify;
-		padding: 15px;
-	}
+    section {
+        min-height: 200px;
+    }
 
-	#times {
-		float: left;
-		width: 50%;
-		/*min-height: 200px;*/
+    p {
+        font-family: 'Alegreya Sans', sans-serif;
+        color: #888888;
+        font-size: 115%;
+        line-height: 100%;
+        text-align: justify;
+        padding: 15px;
+    }
 
-	}
+    #times {
+        float: left;
+        width: 50%;
+        /*min-height: 200px;*/
+    }
 
-	#times ul p {
-		font-size: 70%;
-	}
+    #times ul p {
+        font-size: 70%;
+    }
 
-	#community {
-		font-size: 400%;
-		text-align: center;
-		/*min-height: 200px;*/
-		float: right;
-		margin: 0 auto;
-		width: 50%;
-	}
+    #community {
+        font-size: 400%;
+        text-align: center;
+        /*min-height: 200px;*/
+        float: right;
+        margin: 0 auto;
+        width: 50%;
+    }
 
-	#community i {
-		padding-top: 20px;
-	}
+    #community i {
+        padding-top: 20px;
+    }
 
-	.social_networks i {
-		font-size: 100%;
-	}
+    .social_networks i {
+        font-size: 100%;
+    }
 
 }
