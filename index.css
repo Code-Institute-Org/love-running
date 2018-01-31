@@ -70,12 +70,12 @@ ol {
 section {
     min-height: 230px;
     width: 100%;
-    /*float: left;*/
 }
 
 
 #locations {
     background: url(https://i.imgur.com/JOw5DVD.jpg);
+    float: left;
 }
 
 #heart,
