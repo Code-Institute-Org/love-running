@@ -26,7 +26,6 @@ h2 {
 }
 
 p {
-
     color: #6991AC;
     font-size: 120%;
     line-height: 120%;
@@ -41,9 +40,7 @@ img {
     margin-bottom: -4px;
 }
 
-header {
-    
-}
+header {}
 
 #logo {
     float: left;
@@ -70,17 +67,14 @@ ol {
 }
 
 
-/*---- End Navigation--------*/
-
-#inner-wrapper1 {
+section {
     min-height: 230px;
     width: 100%;
+    /*float: left;*/
 }
 
-#inner-wrapper2 {
-    min-height: 230px;
-    float: left;
-    width: 100%;
+
+#locations {
     background: url(https://i.imgur.com/JOw5DVD.jpg);
 }
 
@@ -239,7 +233,7 @@ button:hover {
 
     p {
         font-family: 'Alegreya Sans', sans-serif;
-        color: #888888;
+        color: #6991AC;
         font-size: 115%;
         line-height: 100%;
         text-align: justify;
