@@ -21,6 +21,7 @@ h2 {
     font-weight: 700;
     text-align: center;
     padding-top: 2%;
+    text-transform: uppercase;
 
 }
 
@@ -41,15 +42,15 @@ img {
 }
 
 header {
-    padding-left: 53px;
+    
 }
-
 
 #logo {
     float: left;
     width: 70px;
     height: 60px;
     padding-top: 20px;
+    margin-left: 53px;
     background: url(https://i.imgur.com/laiywsa.png) no-repeat center;
 }
 
