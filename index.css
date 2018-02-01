@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 
-/* reset style */
+
 
 * {
     margin: 0;
@@ -10,7 +10,6 @@
 
 }
 
-/* end reset style */
 
 body {
     color: #6991AC;
@@ -25,7 +24,7 @@ h2 {
 
 }
 
-p {
+p, ul {
     color: #6991AC;
     font-size: 120%;
     line-height: 120%;
@@ -40,7 +39,7 @@ img {
     margin-bottom: -4px;
 }
 
-header {}
+
 
 #logo {
     float: left;
@@ -51,27 +50,15 @@ header {}
     background: url(https://i.imgur.com/laiywsa.png) no-repeat center;
 }
 
-/*------- Start Navigation--------*/
 
-ul,
-ol {
+ul {
     list-style-type: none;
-    display: inline-block;
-    font-size: 120%;
 }
-
-
-ol {
-    margin-top: 20px;
-    padding-left: 53px;
-}
-
 
 section {
     min-height: 230px;
     width: 100%;
 }
-
 
 #locations {
     background: url(https://i.imgur.com/JOw5DVD.jpg);
